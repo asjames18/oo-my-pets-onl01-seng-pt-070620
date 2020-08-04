@@ -36,6 +36,7 @@ class Owner
      def cats
        Cat.all.select {|owner|
          owner.self}
+       end
 
 
   end
