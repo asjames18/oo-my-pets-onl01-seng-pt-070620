@@ -20,7 +20,7 @@ class Cat
   def self.all
     @@all
 
-    binding.pry
+    # binding.pry
   end
 
 
