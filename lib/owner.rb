@@ -36,8 +36,8 @@ class Owner
      end
 
      def cats
-       @@all = Cat.all
-
+    Cat.all
+binding.pry
 end
 
 end
